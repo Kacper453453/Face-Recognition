@@ -1,0 +1,9 @@
+Open terminal and type
+
+python main.py --video - to capture face in your camera.
+python main.py --validate - Validate trained model. This will load couple of photos. Press q if you want to stop loading.
+python main.py --train - Train on input data
+python main.py --test - Test the model with an unknown image
+
+python main.py -m [cnn / hog] - Which model to use for training: hog (CPU), cnn (GPU)
+python main.py -f [path] - Path to an image with an unknown face.
